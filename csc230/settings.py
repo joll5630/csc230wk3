@@ -32,7 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'pets.apps.PetsConfig',
+
+    'blog',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -80,9 +81,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'csc230',
-        'USER': 'postgres',
-        'PASSWORD': 'Woodrow4959',
-        'HOST': 'localhost',
+        'USER': 'csc230admin',
+        'PASSWORD': 'csc230pass',
+        'HOST': 'csc230postgres.clvnqtnitltw.us-east-2.rds.amazonaws.com',
         'PORT': '5432'
     }
 }

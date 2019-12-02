@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/csc230</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="AWS Postgres" uuid="f9339653-be0e-4e30-9a9c-831ee404717e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://csc230postgres.clvnqtnitltw.us-east-2.rds.amazonaws.com:5432/postgres</jdbc-url>
+    </data-source>
   </component>
 </project>
